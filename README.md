@@ -14,9 +14,9 @@ Please do not download just yet. Code is still under development until this noti
 <div>
 
   <div class="filterable"> 
-    <div class="item" data-filter-attribute="12,53,12" data-filter-label="Label one, Label two"> Item 1 </div>
-    <div class="item" data-filter-attribute="12,53,12" data-filter-label="Label one, Label two"> Item 2 </div> 
-    <div class="item" data-filter-attribute="12,53,12" data-filter-label="Label one, Label two"> Item 3 </div> 
+    <div class="item" data-filter-attribute="12,53,12" data-filter-label="Label one, Label two, Label one"> Item 1 </div>
+    <div class="item" data-filter-attribute="12,23,13" data-filter-label="Label one, Other1, Label three"> Item 2 </div> 
+    <div class="item" data-filter-attribute="12,0,1" data-filter-label="Other2, Other3, Other4"> Item 3 </div> 
     ...
   </div>
   
