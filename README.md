@@ -14,7 +14,7 @@ Please do not download just yet. Code is still under development until this noti
 * Your own HTML. It has to be laid out like so:
 
 ##Optional, Yet Ideal
-* Bootstrap CSS - if ommitted, code will still work but search box will need
+* Bootstrap CSS - if ommitted, code will still work but search box might need some styling
 
 ###HTML Layout
 ######div container containing all the elements (possibly in a grid) that you would want to be affected by the filter
