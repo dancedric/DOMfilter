@@ -3,6 +3,6 @@ A jQuery extension that allows you to have a filter option that hides / shows el
 
 Please do not download just yet. Code is still under development until this notice is removed.. 
 
-``adadsdsd
-```adadsadsa
-````asdasdasdsa
+```
+echo '';
+```
