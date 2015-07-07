@@ -7,8 +7,14 @@ Please do not download just yet. Code is still under development until this noti
 
 ##Requirements
 * jQuery
-* Your own HTML
+* Your own HTML. It has to be laid out like so:
 
+###HTML Layout
 ```
-echo '';
+<div>
+  <div class="filterable"> <!-- can be <ul> -->
+    <div class="item"> Item 1 </div> <!-- can be <li> -->
+    <div
+  </div>
+</div>
 ```
