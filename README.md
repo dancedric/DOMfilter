@@ -17,7 +17,7 @@ Please do not download just yet. Code is still under development until this noti
 * Bootstrap CSS - if ommitted, code will still work but search box will need
 
 ###HTML Layout
-####div container containing all the elements (possibly in a grid) that you would want to be affected by the filter
+######div container containing all the elements (possibly in a grid) that you would want to be affected by the filter
 ```
   <div class="filterable"> 
     <div class="item" data-filter-attribute="12,53,12" data-filter-label="Label one, Label two, Label one"> Item 1 </div>
@@ -27,7 +27,7 @@ Please do not download just yet. Code is still under development until this noti
   </div>
 ```
 
-####div container where you would want the dynamically-generated checkbox/radio to show. This will a
+######div container where you would want the dynamically-generated checkbox/radio to show. This will a
 
 ```
   <div id="filter-control">
