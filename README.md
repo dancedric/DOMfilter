@@ -27,13 +27,18 @@ Please do not download just yet. Code is still under development until this noti
   </div>
 ```
 
-######div container where you would want the dynamically-generated checkbox/radio to show. This will a
+######div container where you would want the dynamically-generated checkbox/radio to show.
 
 ```
   <div id="filter-control">
     <form>
-      <div id="text-filter"></div>    
-      <div id="checkbox-filters"></div>
+      <div id="text-filter">
+        <div class="input-group">
+  			  <input type="text" class="form-control" name="resource-search-box" id="resource-search-box">
+					<span class="input-group-btn"><button class="btn btn-default" id="resource-search-box-button">Filter</button></span>
+				</div>
+      </div>    
+      <div id="checkbox-filters"></div> <!-- contents will be dynamically-generated -->
     </form>
   </div>
 ```
