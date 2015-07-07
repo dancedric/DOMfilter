@@ -12,9 +12,17 @@ Please do not download just yet. Code is still under development until this noti
 ###HTML Layout
 ```
 <div>
-  <div class="filterable"> <!-- can be <ul> -->
-    <div class="item"> Item 1 </div> <!-- can be <li> -->
-    <div
+
+  <div class="filterable"> 
+    <div class="item" data-filter-attribute="12,53,12" data-filter-label="Label one, Label two"> Item 1 </div>
+    <div class="item" data-filter-attribute="12,53,12" data-filter-label="Label one, Label two"> Item 2 </div> 
+    <div class="item" data-filter-attribute="12,53,12" data-filter-label="Label one, Label two"> Item 3 </div> 
+    ...
+  </div>
+  
+  <div class="filter-control">
+    <form>
+    </form>
   </div>
 </div>
 ```
