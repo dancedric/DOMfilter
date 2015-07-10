@@ -11,6 +11,7 @@ Please do not download just yet. Code is still under development until this noti
 
 ##Requirements
 * jQuery
+* ExpressionEngine - currently this codebase is rigged to take advantage of ExpressionEngine Categories/Category Groups
 * Your own HTML. It has to be laid out like so:
 
 ##Optional, Yet Ideal
