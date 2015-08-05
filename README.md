@@ -70,7 +70,7 @@ After loading jQuery, Bootstrap(optional), and your HTML as laid out above, you 
 $('.filterable').DOMfilter();
 ```
 Without any options, that's all you will need to do.
-You can use any selector you wish as long as it's follows the [HTML Layout](#HTML Layout)
+You can use any selector you wish as long as it's follows the [HTML Layout](#html-layout)
 
 ###Options
 
