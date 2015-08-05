@@ -44,7 +44,7 @@ Here is a (hopefully still) working example: http://eu-en.trapezegroup.com/resou
       <div id="checkbox-filters"></div> <!-- contents will be dynamically-generated -->
     </form>
   </div>
-```i
+```
 ###Instructions
 This extension looks for an overall div container named `.filterable`. The code looks through all the `data-filter-attribute` of all the immediate children with the class `.item`. This extension compiles them, and automatically generates filter controls and places them under the `#filter-control` div container.
 
