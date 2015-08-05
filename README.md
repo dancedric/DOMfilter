@@ -59,11 +59,19 @@ Here is a (hopefully still) working example: http://eu-en.trapezegroup.com/resou
     
   </div>
 ```
-####Instructions
-This extension looks for an overall div container named `.filterable`. The code looks through all the `data-filter-attribute` of all the immediate children with the class `.item`. This extension compiles them, and automatically generates filter controls and places them under the `#filter-control` div container. These will be checkbox (radio button feature--soon to come) options that reflect the  
+This extension looks for an overall div container named `.filterable`(changeable). The code looks through all the `data-filter-attribute` of all the immediate children with the class `.item`. This extension compiles them, and automatically generates filter controls and places them under the `#filter-control` div container. These will be checkbox (radio button feature--soon to come) options that reflect the  
 
 The "text search" feature is simply looking through the `.title` of each `.item` if it contains the string being searched. It is case-INsensitive
 
-#Options
+#How to use
+###Initialization
+After loading jQuery, Bootstrap(optional), and your HTML as laid out above, you can initiate this by doing:
+```
+$('.filterable').DOMfilter();
+```
+Without any options, that's all you will need to do.
+
+
+###Options
 
 
