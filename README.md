@@ -65,7 +65,7 @@ The "text search" feature is simply looking through the `.title` of each `.item`
 
 #How to use
 ###Initialization
-After loading jQuery, Bootstrap(optional), and your HTML as laid out above, you can initiate this by doing:
+After loading jQuery, Bootstrap(optional), and your [HTML](#html-layout) as laid out above, you can initiate this by doing:
 ```
 $('.filterable').DOMfilter();
 ```
