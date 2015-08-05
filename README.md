@@ -19,7 +19,7 @@ Here is a (hopefully still) working example: http://eu-en.trapezegroup.com/resou
 * Bootstrap CSS - if ommitted, code will still work but search box might need some styling
 
 ##How It Works
-###HTML Layout
+####HTML Layout
 ######div container containing all the elements (possibly in a grid) that you would want to be affected by the filter
 ```
   <div class="filterable"> 
@@ -45,7 +45,7 @@ Here is a (hopefully still) working example: http://eu-en.trapezegroup.com/resou
     </form>
   </div>
 ```
-###Instructions
+####Instructions
 This extension looks for an overall div container named `.filterable`. The code looks through all the `data-filter-attribute` of all the immediate children with the class `.item`. This extension compiles them, and automatically generates filter controls and places them under the `#filter-control` div container.
 
 The "text search" feature is simply looking through the `.title` of each `.item` if it contains the string being searched. It is case-INsensitive
