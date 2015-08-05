@@ -35,7 +35,7 @@ Here is a (hopefully still) working example: http://eu-en.trapezegroup.com/resou
 ```
   <div id="filter-control">
     <form>
-      <div id="text-filter">
+      <div id="text-filter"><!-- This is the textbox search filter-->
         <div class="input-group">
   			  <input type="text" class="form-control" name="resource-search-box" id="resource-search-box">
 					<span class="input-group-btn"><button class="btn btn-default" id="resource-search-box-button">Filter</button></span>
@@ -43,11 +43,27 @@ Here is a (hopefully still) working example: http://eu-en.trapezegroup.com/resou
       </div>    
       <div id="checkbox-filters"></div> <!-- contents will be dynamically-generated -->
     </form>
+    
+    <!-- CODE ENCLOSED WILL BE DYNAMICALLY GENERATED -->
+    <section class="section" by="*ID*">
+    	<div class="title">Sample Title 1</div>
+    	<div class="content">
+    		<div>
+    			<label>
+    			<input type="checkbox" class="filter-attribute-button" name="filter-attribute-selector" value="237"> 				Articles
+    			</label>
+    		</div>
+    	</div>
+    </section>
+    <!-- CODE ENCLOSED WILL BE DYNAMICALLY GENERATED -->
+    
   </div>
 ```
 ####Instructions
-This extension looks for an overall div container named `.filterable`. The code looks through all the `data-filter-attribute` of all the immediate children with the class `.item`. This extension compiles them, and automatically generates filter controls and places them under the `#filter-control` div container.
+This extension looks for an overall div container named `.filterable`. The code looks through all the `data-filter-attribute` of all the immediate children with the class `.item`. This extension compiles them, and automatically generates filter controls and places them under the `#filter-control` div container. These will be checkbox (radio button feature--soon to come) options that reflect the  
 
 The "text search" feature is simply looking through the `.title` of each `.item` if it contains the string being searched. It is case-INsensitive
 
 #Options
+
+
