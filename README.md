@@ -9,6 +9,11 @@ The "text search" feature is simply looking through the `.title` of each `.item`
 
 Please do not download just yet. Code is still under development until this notice is removed.. 
 
+##Example
+Here is a (hopefully still) working example: http://eu-en.trapezegroup.com/resources
+
+
+
 ##Requirements
 * jQuery
 * ExpressionEngine - currently this codebase is rigged to take advantage of ExpressionEngine Categories/Category Groups
