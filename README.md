@@ -1,11 +1,7 @@
 # DOMfilter
 
 ##Intro
-A jQuery extension that allows you to have a filter option that hides / shows elements. No ajax or server activity, just frontend DOM manipulation.
-
-This extension looks for a container named `.filterable`. The code looks through all the `data-filter-attribute` of all children with the class `.item`, compiles them, and automatically generates filter controls under the `#filter-control` container.
-
-The "text search" feature is simply looking through the `.title` of each `.item` if it contains the string being searched. It is case-INsensitive
+DOMfilter is a jQuery extension that allows you to have a filter option that hides / shows elements. No ajax or server activity, just frontend DOM manipulation.
 
 Please do not download just yet. Code is still under development until this notice is removed.. 
 
@@ -22,6 +18,7 @@ Here is a (hopefully still) working example: http://eu-en.trapezegroup.com/resou
 ##Optional, Yet Ideal
 * Bootstrap CSS - if ommitted, code will still work but search box might need some styling
 
+##How It Works
 ###HTML Layout
 ######div container containing all the elements (possibly in a grid) that you would want to be affected by the filter
 ```
@@ -47,7 +44,10 @@ Here is a (hopefully still) working example: http://eu-en.trapezegroup.com/resou
       <div id="checkbox-filters"></div> <!-- contents will be dynamically-generated -->
     </form>
   </div>
-```
-#Instructions
+```i
+###Instructions
+This extension looks for an overall div container named `.filterable`. The code looks through all the `data-filter-attribute` of all the immediate children with the class `.item`. This extension compiles them, and automatically generates filter controls and places them under the `#filter-control` div container.
+
+The "text search" feature is simply looking through the `.title` of each `.item` if it contains the string being searched. It is case-INsensitive
 
 #Options
