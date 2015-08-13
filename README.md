@@ -83,17 +83,17 @@ Default: .resource-search-box
 Description: The input[type="text"] element of your search box in the filter.
 
 #####excludeById
-Default: '' (array)
+Default: '' (array - integer)
 Description: The array of ID's (data-filter-attribute) that you do now want to be processed nor included in the filter.
 
 #####excludeByLabel
-Default: '' (Array)
+Default: '' (Array - string)
 Description: The array of labels (data-filter-labels) that you do now want to be processed nor included in the filter.
 
 #####parentCategoryIds
-Default: '' (Array)
+Default: '' (Array - integer)
 Description: You can group your filter controls by section/categories. Listing the category id's here groups your filter by ID.
 
 #####parentCategoryNames
-Default: '' (Array)
+Default: '' (Array - string)
 Description: Connected with the option above, use this option to control the label that will show up for category. The order of labels will correspond to the order of the ID's.
