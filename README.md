@@ -75,5 +75,17 @@ You can use any selector you wish as long as it's follows the [HTML Layout](#htm
 ###Options
 
 #####filterControl
-default: #filter-control
-#####filterAttributeButton
+Default: #filter-control
+Description: The element present in the DOM where all the dynamically-generated checkboxes will appear.
+
+#####searchBoxSelector
+Default: .resource-search-box
+Description: The input[type="text"] element of your search box in the filter.
+
+#####excludeById
+Default: '' (array)
+Description: The array of ID's (data-filter-attribute) that you do now want to be processed nor included in the filter.
+
+#####excludeByLabel
+Default: '' (Array)
+Description: The array of labels (data-filter-labels) that you do now want to be processed nor included in the filter.
