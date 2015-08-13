@@ -71,28 +71,38 @@ Without any options, that's all you will need to do.
 You can use any selector you wish as long as it's follows the [HTML Layout](#html-layout)
 
 ###Options
-
-#####filterControl
 <dl>
-<dt>Default: #filter-control</dt>
+<dt>filterControl</dt>
+<dd>Default: #filter-control</dd>
 <dd>Description: The element present in the DOM where all the dynamically-generated checkboxes will appear.</dd>
+</dl>
 
-#####searchBoxSelector
-Default: .resource-search-box
-Description: The input[type="text"] element of your search box in the filter.
+<dl>
+<dt>searchBoxSelector</dt>
+<dd>Default: .resource-search-box</dd>
+<dd>Description: The input[type="text"] element of your search box in the filter.</dd>
+</dl>
 
-#####excludeById
-Default: '' (array - integer)
-Description: The array of ID's (data-filter-attribute) that you do now want to be processed nor included in the filter.
+<dl>
+<dt>excludeById</dt>
+<dd>Default: '' (array - integer)</dd>
+<dd>Description: The array of ID's (data-filter-attribute) that you do now want to be processed nor included in the filter.</dd>
+</dl>
 
-#####excludeByLabel
-Default: '' (Array - string)
-Description: The array of labels (data-filter-labels) that you do now want to be processed nor included in the filter.
+<dl>
+<dt>excludeByLabel</dt>
+<dd>Default: '' (Array - string)</dd>
+<dd>Description: The array of labels (data-filter-labels) that you do now want to be processed nor included in the filter.</dd>
+</dl>
 
-#####parentCategoryIds
-Default: '' (Array - integer)
-Description: You can group your filter controls by section/categories. Listing the category id's here groups your filter by ID.
+<dl>
+<dt>parentCategoryIds</dt>
+<dd>Default: '' (Array - integer)</dd>
+<dd>Description: You can group your filter controls by section/categories. Listing the category id's here groups your filter by ID.</dd>
+</dl>
 
-#####parentCategoryNames
-Default: '' (Array - string)
-Description: Connected with the option above, use this option to control the label that will show up for category. The order of labels will correspond to the order of the ID's.
+<dl>
+<dt>parentCategoryNames</dt>
+<dd>Default: '' (Array - string)</dd>
+<dd>Description: Connected with the option above, use this option to control the label that will show up for category. The order of labels will correspond to the order of the ID's.</dd>
+</dl>
