@@ -73,8 +73,9 @@ You can use any selector you wish as long as it's follows the [HTML Layout](#htm
 ###Options
 
 #####filterControl
-Default: #filter-control
-Description: The element present in the DOM where all the dynamically-generated checkboxes will appear.
+<dl>
+<dt>Default: #filter-control</dt>
+<dd>Description: The element present in the DOM where all the dynamically-generated checkboxes will appear.</dd>
 
 #####searchBoxSelector
 Default: .resource-search-box
