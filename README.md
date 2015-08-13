@@ -12,10 +12,10 @@ Here is a (hopefully still) working example: http://eu-en.trapezegroup.com/resou
 
 ##Requirements
 * jQuery
-* ExpressionEngine - currently this codebase is rigged to take advantage of ExpressionEngine Categories/Category Groups
 * Your own HTML. It has to be laid out like so:
 
 ##Optional, Yet Ideal
+* ExpressionEngine - currently this codebase is rigged to take advantage of ExpressionEngine Categories/Category Groups
 * Bootstrap CSS - if ommitted, code will still work but search box might need some styling
 
 ##How It Works
