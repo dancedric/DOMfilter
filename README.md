@@ -74,6 +74,6 @@ You can use any selector you wish as long as it's follows the [HTML Layout](#htm
 
 ###Options
 
-####filterControl
+#####filterControl
 default: #filter-control
-####filterAttributeButton
+#####filterAttributeButton
