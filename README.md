@@ -12,7 +12,7 @@ Here is a (hopefully still) working example: http://eu-en.trapezegroup.com/resou
 
 ##Requirements
 * jQuery
-* Your own HTML. It has to be laid out like so:
+* Your own HTML. It has to be laid out like this [HTML](#html-layout)
 
 ##Optional, Yet Ideal
 * ExpressionEngine - currently this codebase is rigged to take advantage of ExpressionEngine Categories/Category Groups
