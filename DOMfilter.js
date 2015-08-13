@@ -18,7 +18,7 @@
 		attributes = [];
 		PARENT_CATEGORY_IDS = (args && args.parentCategoryIds) ? (args.parentCategoryIds) : '';
 	    PARENT_CATEGORY_NAMES = (args && args.parentCategoryNames) ? (args.parentCategoryNames) : '';
-	    ///// THINGS YOU CAN EDIT - START /////
+	    ///// THINGS YOU CAN EDIT - END /////
 	    
 	    getAttributes();
 	    layOutFilterControls();
