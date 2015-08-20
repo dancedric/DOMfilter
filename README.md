@@ -13,7 +13,7 @@ Here is a (hopefully still) working example: http://eu-en.trapezegroup.com/resou
 * Your own HTML. It has to be laid out like this [HTML](#html-layout)
 
 ##Optional, Yet Ideal
-* ExpressionEngine - Currently this codebase is rigged to take advantage of ExpressionEngine Categories/Category Groups. ExpressionEngine was (just) used to generate the content via the usual entries tag.
+* ExpressionEngine - Currently this codebase is rigged to take advantage of ExpressionEngine Categories/Category Groups. ExpressionEngine was (just) also used to generate the content via the usual entries tag.
 * Bootstrap CSS -  The examples here use Bootstrap CSS to lay out elements (Bootstrap grid system). If ommitted, code will still work but search box might need some styling as it relies on it.
 
 ##How It Works
