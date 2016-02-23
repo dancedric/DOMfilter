@@ -35,7 +35,7 @@ Here is a (hopefully still) working example: http://eu-en.trapezegroup.com/resou
     <form>
       <div id="text-filter"><!-- This is the textbox search filter-->
         <div class="input-group">
-  			  <input type="text" class="form-control" name="resource-search-box" class="resource-search-box">
+  			  <input type="text" class="form-control resource-search-box" name="resource-search-box">
 					<span class="input-group-btn"><button class="btn btn-default" id="resource-search-box-button">Filter</button></span>
 				</div>
       </div>    
